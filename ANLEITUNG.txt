@@ -1,0 +1,11 @@
+Fire Veil Ring - Minecraft 26.1.2 (Fabric)
+
+Im Spiel:
+  /fireveil        Menue (AN/AUS, Dicke, Farbe)
+  /fireveil test   Ring 5 Sekunden lang zum Ausprobieren
+
+Voraussetzung: Fabric Loader + Fabric API fuer 26.1.2, Java 25.
+
+Selbst bauen: Projektordner oeffnen, "gradle wrapper" bzw. gradlew aus einer Fabric-Vorlage
+(fabricmc.net/develop/template) hineinkopieren, dann:  ./gradlew build
+Die fertige Mod liegt in build/libs/fireveilring-1.0.0.jar

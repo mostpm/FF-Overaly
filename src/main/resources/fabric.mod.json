@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "fireveilring",
+  "version": "${version}",
+  "name": "Fire Veil Ring",
+  "description": "Zeigt beim Benutzen der Fire Veil Wand einen Ring um dich. Einstellungen: /fireveil",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.fireveilring.FireVeilRingClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
